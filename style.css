@@ -1,0 +1,39 @@
+body {
+    padding-top: 56px;
+    background-color: #f8f9fa;
+}
+
+.card {
+    transition: transform 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, .1);
+}
+
+.jumbotron {
+    background-image: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8)), url('https://via.placeholder.com/1200x400');
+    background-size: cover;
+    background-position: center;
+}
+
+.navbar {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .1);
+}
+
+.img-thumbnail {
+    max-height: 200px;
+    object-fit: cover;
+}
+
+.quantity-input {
+    width: 60px;
+}
+
+footer {
+    background-color: #343a40;
+    color: white;
+    padding: 20px 0;
+    margin-top: 40px;
+}
